@@ -38,3 +38,12 @@
 - `git pull`
   - pulls all the code from the server
   - gets the code from other devs as well
+- `git reflog`
+  - gets all the hash and commit messages, even the deleted ones
+  - even the hard deletes can be reverted using this 
+  - gets alll the history and is emergency command for history
+- `git cherry-pick a6abe7c 712af0e 68c8ddb` 
+  - takes all the changes from different hashes 
+  - takes the commit messages of different hashes and puts on the top of current one 
+  - there is no need to recommit changes
+  - it automatically picks the commit changes from the given hashes 

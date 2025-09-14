@@ -31,7 +31,7 @@
   - `-u` is for upstream flag
     - used only for the first time
     - afterwards without `-u` also the code get pushed
-    - `-u` is a shortcut flag for `--upstream`
+    - `-u` is a shortcut flag for `--set-upstream`
   - `git push`
     - works after the first time
     - for the first time we use `-u` flag

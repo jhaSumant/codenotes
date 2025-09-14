@@ -1,0 +1,40 @@
+# basic git commands
+
+- `git init`:
+  - initalizes git repositories 
+- `git status`:
+  - checks status of file in the git directory
+  - shows different untracked, added, modified files
+- `git add filename1 filename2 ... filenameN`
+  - adds different files to the staging area 
+  - only the specefic files are added to staging
+  - this process is done before capturing commit
+  - commit is a screenshot of code changes
+  - staged files are for temp memory
+- `git add .`
+  - adds all the files to the staging area 
+- `git commit -m "commit message"`
+  - captures the screenshot of the code 
+  - this is for taking note of code
+  - at some crutial points when code is to be saved, it is saved using commit message
+  - different code ss can be visited using hash
+  - __hash__ is a string which denotes some ss 
+  - `b352504c73134a1088eeb449761e2c1f5cea1eb7` is an example of hash
+- `git log`
+  - shows all the commit history 
+  - commit history includes author, hash, time, commit messages, and other details regarding  commits
+- `git log --oneline`
+  - gives a concise commit history
+  - a short hash and commit message
+- `git push -u branchname`
+  - pushes the code to online servers 
+  - `-u` is for upstream flag
+    - used only for the first time
+    - afterwards without `-u` also the code get pushed
+    - `-u` is a shortcut flag for `--upstream`
+  - `git push`
+    - works after the first time
+    - for the first time we use `-u` flag
+- `git pull`
+  - pulls all the code from the server
+  - gets the code from other devs as well
